@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="CSS/dashboard_2.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="CSS/product.css">
+    <link rel="stylesheet" href="CSS/productresponsive.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <span class="logo_name">Programmer</span>
+        </div>
+        <ul class="nav-links">
+            <li>
+                <a href="#" class="active">
+                    <i class='bx bx-grid-alt'></i>
+                    <!-- <i class='bx bxs-dashboard'></i> -->
+                    <span class="links_name" onClick="location.href='dashboard_2.html'">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-box'></i>
+                    <span class="links_name" onclick="location.href='product.html'">Product</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class='bx bx-list-ul'></i>
+                    <span class="links_name"  onclick="location.href='order_list.html'">Order list</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bx-message'></i>
+                    <span class="links_name">Messages</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class='bx bx-cog'></i>
+                    <span class="links_name">Setting</span>
+                </a>
+            </li>
+            <li class="log_out">
+                <a href="index.html">
+                    <i class='bx bx-log-out'></i>
+                    <span class="links_name">Log out</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <section class="home-section">
+        <nav>
+            <div class="sidebar-dash">
+                <span class="dashboard">Dashboard</span>
+            </div>
+            <div class="search-box">
+                <input type="text" placeholder="Search...">
+                <i class='bx bx-search'></i>
+            </div>
+            <div class="profile-details">
+                <img src="image/20201203_212402.png" alt="">
+                <span class="admin_name">Ramish Munawar</span> 
+       
+                <!-- <box-icon name='bell' animation='tada-hover'></box-icon> -->
+            </div>
+        </nav>
+
+        <div class="container    container_control"  style="width: 90%; margin-top: 60px;">
+            <div class="dispaly-flex">
+            <h2>Product</h2>
+            <button class="btn_add"><a href="product_Add.html">Add Product</a></button>
+            <table  cellspacing="0 "  id="example" class="table table-striped table-bordered  width_control" style="width:100% ">
+                <thead>
+                    <tr>
+                        <th>Product_id</th>
+                        <th>Product_Name</th>
+                        <th>Product_Price</th>
+                        <th>Product_Quantity</th>
+                        <!-- <th>Product_Add to cart</th> -->
+                        <!-- <th>Salary</th> -->
+                        <th>action</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr class="mar_left">
+                        <td>1</td>
+                        <td>Samsung Mobile</td>
+                        <td>60000</td>
+                        <td>23</td>
+                        <!-- <td>2008-12-13</td> -->
+                        <!-- <td>$103,600</td> -->
+
+                        <td class="icon_width">&nbsp;&nbsp; <i class="bi bi-pencil-square icon_bg"></i>&nbsp;&nbsp;
+                            <i class="bi bi-trash  icon_bg_2"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Huawei Mobile</td>
+                        <td>40000</td>
+                        <td>30</td>
+                        <!-- <td>2008-12-19</td> -->
+                        <!-- <td>$90,560</td> -->
+                        <td  class="icon_width">&nbsp;&nbsp; <i class="bi bi-pencil-square icon_bg"></i>&nbsp;&nbsp;
+                            <i class="bi bi-trash  icon_bg_2"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Vivo</td>
+                        <td>55000</td>
+                        <td>22</td>
+                        <!-- <td>2013-03-03</td> -->
+                        <!-- <td>$342,000</td> -->
+                        <td class="icon_width">&nbsp;&nbsp; <i class="bi bi-pencil-square icon_bg"></i>&nbsp;&nbsp;
+                            <i class="bi bi-trash  icon_bg_2"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>OPPO Mobile</td>
+                        <td>70000</td>
+                        <td>36</td>
+                        <!-- <td>2008-10-16</td> -->
+                        <!-- <td>$470,600</td> -->
+                        <td class="icon_width"> &nbsp;&nbsp; <i class="bi bi-pencil-square icon_bg"></i>&nbsp;&nbsp;
+                            <i class="bi bi-trash  icon_bg_2"></i>
+                        </td>
+                    </tr>
+                    <!-- <tr>
+                        <td>5</td>
+                        <td>Infinix Mobile</td>
+                        <td>25000</td>
+                        <td>43</td>
+                        <td>2012-12-18</td>
+                        <td>$313,500</td>
+                        <td class="icon_width">&nbsp;&nbsp; <i class="bi bi-pencil-square icon_bg"></i>&nbsp;&nbsp;
+                            <i class="bi bi-trash  icon_bg_2"></i>
+                        </td>
+                    </tr> -->
+                    <!-- <tr>
+                        <td>6</td>
+                        <td>Realme Mobile</td>
+                        <td>35000</td>
+                        <td>19</td>
+                        <td>2010-03-17</td>
+                        <td>$385,750</td>
+                        <td class="icon_width">&nbsp;&nbsp; <i class="bi bi-pencil-square icon_bg"></i>&nbsp;&nbsp;
+                            <i class="bi bi-trash  icon_bg_2"></i>
+                        </td>
+                    </tr> -->
+                    <tr>
+
+                    </tr>
+
+
+                </tbody>
+                <!-- <tfoot>
+              <tr>
+                  <th>Name</th>
+                  <th>Position</th>
+                  <th>Office</th>
+                  <th>Age</th>
+                  <th>Start date</th>
+                  <th>Salary</th>
+  
+              </tr>
+          </tfoot> -->
+            </table>
+        </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

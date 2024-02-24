@@ -1,0 +1,418 @@
+@media only screen and (max-width: 450px) {
+  .home-section{
+    position: relative;
+    background: #f5f5f5;
+    height: 670px;
+ 
+    width: 100%;
+    left: 300px;
+  
+  }
+  
+         
+  }
+
+@media only screen and (max-width: 600px) {
+  .home-section nav .search-box{
+    position: relative;
+    height: 94px;
+    max-width:350px !important;
+    width: 100%;
+    margin: 0 20px;
+         
+  }
+ 
+    .home-section nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 90px;
+        background: #fff;
+       
+        align-items: center;
+       
+        width: 100%;
+      
+        padding: 0 20px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      
+      }
+     
+    .home-section nav .search-box{
+        position: relative;
+        height: 50px;
+        max-width:300px;
+        width: 100%;
+        margin: 0 20px;
+      }
+      nav .search-box input{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        background: #F5F6FA;
+        border: 2px solid #EFEEF1;
+        border-radius: 6px;
+        font-size: 18px;
+        padding: 0px 15px;
+       
+      
+      }
+      .home-section .home-content{
+        padding: 14px;
+      }
+    .overview-boxes {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .home-section{
+      position: relative;
+      background: #f5f5f5;
+      height: 670px;
+   
+      width: 100%;
+      left: 240px;
+    
+    }
+    
+  .home-content .sales-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-left:65px; */
+     width: 100%;
+    gap: 20px;
+
+  }
+  .home-content .sales-boxes .top-sales{
+    width: 64%;
+    background: #fff;
+    padding: 20px 23px;
+    margin-left: 47px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-content .sales-boxes .recent-sales{
+    width: 50%;
+    background: #fff;
+     margin-top: 28px;
+     margin-left: 75px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .home-content .sales-boxes .top-sales{
+    width: 55%;
+    background: #fff;
+    padding: 20px 40px;
+    /* margin: 0 20px 0 0; */
+    border-radius: 12px;
+    margin-left: 132px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+.home-section{
+  position: relative;
+  background: #f5f5f5;
+  height: 625px;
+  /* width: calc(100% - 240px); */
+  width: 82%;
+  left: 240px;
+  /* transition: all 0.5s ease; */
+}
+
+  .home-section nav .profile-details{
+    display: flex;
+    align-items: center;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 6px;
+    height: 50px;
+    display: none;
+  
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 768px) {
+    .sales-boxes .box .title{
+     padding-left: 15px;
+    }
+    .home-section{
+      position: relative;
+      background: #b60000;
+      height: 625px;
+      /* width: calc(100% - 240px); */
+      width: 100%;
+      left: 171px !important;
+      /* transition\: all 0.5s ease; */
+    }
+    
+  
+    .sidebar .logo .logo_name{
+      color: #fff;
+      
+      
+    }
+    .sidebar .logo{
+      height: 80px;
+      display: flex;
+      align-items: center;
+      padding-left: 10px;
+    }
+    .sidebar{
+      position: fixed;
+      height: 100%;
+      width: 172px;
+      background: #0A2558;
+      /* transition: all 0.5s ease; */
+    }
+    .sidebar .nav-links{
+      /* margin-top: 10px; */
+      padding: 0;
+    }
+    .home-section nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 90px;
+        background: #fff;
+       
+
+        align-items: center;
+       
+        width: 100%;
+      
+        padding: 0 20px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      
+      }
+     
+    .home-section nav .search-box{
+        position: relative;
+        height: 94px;
+        max-width:500px;
+        width: 100%;
+        margin: 0 20px;
+             
+      }
+      nav .search-box input{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        background: #F5F6FA;
+        border: 2px solid #EFEEF1;
+        border-radius: 6px;
+        font-size: 18px;
+        padding: 0px 15px;
+       
+      
+      }
+      .home-section .home-content{
+        padding: 14px;
+      }
+    .overview-boxes {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .home-section{
+      position: relative;
+      background: #f5f5f5;
+      height: 670px;
+   
+      width: 100%;
+      left: 240px;
+    
+    }
+    
+  .home-content .sales-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-left:65px; */
+     width: 100%;
+    gap: 20px;
+
+  }
+  .home-content .sales-boxes .top-sales{
+    width: 64%;
+    background: #fff;
+    padding: 20px 23px;
+    margin-left: 47px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-content .sales-boxes .recent-sales{
+    width: 75%;
+    background: #fff;
+     margin-top: 28px;
+     margin-left: 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .home-content .sales-boxes .top-sales{
+    width: 55%;
+    background: #fff;
+    padding: 20px 40px;
+    /* margin: 0 20px 0 0; */
+    border-radius: 12px;
+    margin-left: 132px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-section{
+    /* position: relative; */
+    background: #f5f5f5;
+    height: 625px;
+    /* width: calc(100% - 240px); */
+    width: 90%;
+    left: 240px;
+  
+    /* transition: all 0.5s ease; */
+  }
+
+  .home-section nav .profile-details{
+    display: flex;
+    align-items: center;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 6px;
+    height: 50px;
+    display: none;
+  
+  }
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  @media only screen and (max-width: 576px) {
+    .home-section nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 90px;
+        background: #fff;
+       
+        align-items: center;
+       
+        width: 100%;
+      
+        padding: 0 20px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+      
+      }
+     
+    .home-section nav .search-box{
+        position: relative;
+        height: 50px;
+        max-width:300px;
+        width: 100%;
+        margin: 0 20px;
+      }
+      nav .search-box input{
+        height: 100%;
+        width: 100%;
+        outline: none;
+        background: #F5F6FA;
+        border: 2px solid #EFEEF1;
+        border-radius: 6px;
+        font-size: 18px;
+        padding: 0px 15px;
+       
+      
+      }
+      .home-section .home-content{
+        padding: 14px;
+      }
+    .overview-boxes {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .home-section{
+      position: relative;
+      background: #f5f5f5;
+      height: 670px;
+   
+      width: 100%;
+      left: 240px;
+    
+    }
+    
+  .home-content .sales-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-left:65px; */
+     width: 100%;
+    gap: 20px;
+
+  }
+  .home-content .sales-boxes .top-sales{
+    width: 64%;
+    background: #fff;
+    padding: 20px 23px;
+    margin-left: 47px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-content .sales-boxes .recent-sales{
+    padding: 8px;
+    width: 94%;
+    background: #fff;
+     margin-top: 28px;
+     margin-left: 29px;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .home-content .sales-boxes .top-sales{
+    width: 74%;
+    background: #fff;
+    padding: 20px 40px;
+    /* margin: 0 20px 0 0; */
+    border-radius: 12px;
+    margin-left: 65px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-section{
+    /* position: relative; */
+    background: #f5f5f5;
+    height: 625px;
+    /* width: calc(100% - 240px); */
+    width: 90%;
+    left: 240px;
+    /* transition: all 0.5s ease; */
+  }
+
+  .home-section nav .profile-details{
+    display: flex;
+    align-items: center;
+    background: #F5F6FA;
+    border: 2px solid #EFEEF1;
+    border-radius: 6px;
+    height: 50px;
+    display: none;
+  
+  }
+  
+  }
+  
+  
+  
+  

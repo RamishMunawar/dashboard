@@ -1,0 +1,17 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
+
+.input_width{
+    padding-top: 20px;
+    outline: none;
+}
+.input_change{
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
